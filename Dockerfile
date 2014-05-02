@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM tianon/centos:5.9
 
 ADD host-serf-conf/serf-0.5.0 /usr/bin/serf
 
