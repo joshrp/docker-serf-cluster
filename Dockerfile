@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-ADD serf-0.5.0 /usr/bin/serf
+ADD host-serf-conf/serf-0.5.0 /usr/bin/serf
 
 ADD serfConfig.json /etc/serf/serf.json
 ADD router.sh /etc/serf/router.sh
